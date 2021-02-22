@@ -1,0 +1,13 @@
+[{
+    "id":1,
+    "type":"royal",
+    "no_of_rooms_available":10,
+    "amenities":["AC","WiFi"],
+    "price": 100
+},{
+    "id":2,
+    "type":"deluxe",
+    "no_of_rooms_available":5,
+    "amenities":["AC","WiFi","room_service","food"],
+    "price":200
+}]
