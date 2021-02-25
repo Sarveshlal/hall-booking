@@ -5,7 +5,7 @@ app.use(express.json());
 const cors = require("cors");
 app.use(cors());
 
-let port = process.env.PORT || 8080;
+let port = 8080;
 let roomdata = JSON.parse(
   fs.readFileSync("room.json", "UTF-8", (err, data) => {
     console.log(data);
